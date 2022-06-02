@@ -1,0 +1,16 @@
+{
+  "description": "Merlin company project",
+  "repository": "git@github.com:sebjulliand/merlin_company_system.git",
+  "includePath": ["qrpgleref"],
+  "extensions": {
+    "arcad": {
+      "code": "COMPANY",
+      "libraryPrefix": "CMP",
+      "validated": true,
+      "iasp": ""
+    }
+  },
+  "objlib": "&verlibcompany",
+  "buildCommand": "elias compile {branch}",
+  "compileCommand": "elias compile {branch} -f {filename}"
+}

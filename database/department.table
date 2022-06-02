@@ -1,0 +1,4 @@
+Create table DEPARTMENT (
+    DEPTNO char(3),
+    DEPTNAME Char(38)
+);

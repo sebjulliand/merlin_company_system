@@ -1,0 +1,7 @@
+Create table EMPLOYEE (
+    EMPNO Char(6),
+    FIRSTNME Char(18),
+    LASTNAME Char(18),
+    JOB Char(8),
+    WORKDEPT Char(3)
+)
